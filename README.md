@@ -1,5 +1,4 @@
 # O-sul (Python)
----
 ## Overview
 O-sul is a terminal-based interactive narrative game built in Python that uses branching story logic, player state tracking, and conditional progression to create a dynamic storytelling experience. Player choices directly influence story paths, outcomes, and accessibility to future events.
 
