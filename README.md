@@ -8,10 +8,10 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
 ## Program Design
 1. Story Architecture:
 		- The narrative is built using function-based story nodes, where:
-    	- Each function represents a point of decision
-   		- Player input determines which function is executed
+    		- Each function represents a point of decision
+   			- Player input determines which function is executed
 			- Structure allows non-linear progression
-   	- This makes the story easy to expand with new branches without rewriting core logic
+		- This makes the story easy to expand with new branches without rewriting core logic
 
 3. State & Progress Tracking
   - Player progress is tracked through:
