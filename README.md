@@ -13,15 +13,15 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
 		- Structure allows non-linear progression
 	- This makes the story easy to expand with new branches without rewriting core logic
 
-3. State & Progress Tracking
-  - Player progress is tracked through:
-    - Boolean flags
-    - Conditional checks
-    - Function routing
-  - Allowing:
-    - Locked paths
-    - Choice consequences
-    - Replayability with different outcomes
+2. State & Progress Tracking:
+	- Player progress is tracked through:
+ 		- Boolean flags
+		- Conditional checks
+		- Function routing
+	- Allowing:
+ 		- Locked paths
+		- Choice consequences
+    	- Replayability with different outcomes
 
 3. Password / Access System
   - The game include a hidden input password gate using getpass:
