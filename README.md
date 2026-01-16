@@ -6,14 +6,14 @@ O-sul is a terminal-based interactive narrative game built in Python that uses b
 The project emphasizes programmatic storytelling, modular narrative design, and user interaction rather than static text adventure scripting.
 
 ## Program Design
-### Story Architecture
+1. Story Architecture
 	- The narrative is built using function-based story nodes, where:
 		- Each function represents a point of decision
 		- Player input determines which function is executed
 		- Structure allows non-linear progression
 	- This makes the story easy to expand with new branches without rewriting core logic
 
-### State & Progress Tracking
+2. State & Progress Tracking
 	- Player progress is tracked through:
  		- Boolean flags
 		- Conditional checks
@@ -24,25 +24,25 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
     	- Replayability with different outcomes
 
 3. Password / Access System
-  - The game include a hidden input password gate using getpass:
-    - Input isn't echoed in the terminal
-    - Used to unlock restricted narrative paths
-    - Mimics basic authentication logic
-  - This was intentionally designed to reflect security-based thinking
+	- The game include a hidden input password gate using getpass:
+ 		- Input isn't echoed in the terminal
+		- Used to unlock restricted narrative paths
+		- Mimics basic authentication logic
+	- This was intentionally designed to reflect security-based thinking
 
 4. Testing & Debugging Mechanism
-  - The game includes:
-    - Isolated story paths that can be invoked independently
-    - Clear function boundaries for unit-style testing
-    - Deterministic logic paths for debugging outcomes
-  - Allowing the developer to test specfic narrative branches w/o replaying the entire game
+	- The game includes:
+ 		- Isolated story paths that can be invoked independently
+      	- Clear function boundaries for unit-style testing
+      	- Deterministic logic paths for debugging outcomes
+	- Allowing the developer to test specfic narrative branches w/o replaying the entire game
 
 5. Immersive Features
-  - Time output using `time.sleep()` for pacing
-  - ASCII and terminal formatting
-  - Dynamic narrative tone changes
-  - Virtual asset display via Pillow
-  - Input validation to prevent crashes
+	- Time output using `time.sleep()` for pacing
+	- ASCII and terminal formatting
+	- Dynamic narrative tone changes
+	- Virtual asset display via Pillow
+	- Input validation to prevent crashes
 
 ## Repository Contents
 - `main.py`
