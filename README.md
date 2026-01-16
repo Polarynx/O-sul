@@ -6,14 +6,14 @@ O-sul is a terminal-based interactive narrative game built in Python that uses b
 The project emphasizes programmatic storytelling, modular narrative design, and user interaction rather than static text adventure scripting.
 
 ## Program Design
-1. Story Architecture:
+1. Story Architecture
 	- The narrative is built using function-based story nodes, where:
 		- Each function represents a point of decision
 		- Player input determines which function is executed
 		- Structure allows non-linear progression
 	- This makes the story easy to expand with new branches without rewriting core logic
 
-2. State & Progress Tracking:
+2. State & Progress Tracking
 	- Player progress is tracked through:
  		- Boolean flags
 		- Conditional checks
