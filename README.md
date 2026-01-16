@@ -57,16 +57,16 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
   - Visual asset displayed during a key narrative moment using Pillow (PIL)
 
 ## Dependencies & Setup
-Requirements:
-  - Python 3.8+
-  - Pillow (Python Imaging Library) ~ `pip install pillow`
-Imported libraries:
-  - time (pacing and immersion)
-  - sys (controlled exits)
-  - os (env interaction)
-  - getpass (hidden password input)
-  - PIL.Image (visual asset rendering)
+	- Requirements:
+		- Python 3.8+
+		- Pillow (Python Imaging Library) ~ `pip install pillow`
+	- Imported libraries:
+		- time (pacing and immersion)
+		- sys (controlled exits)
+		- os (env interaction)
+		- getpass (hidden password input)
+		- PIL.Image (visual asset rendering)
 
 ## How to Run
-`python main.py`
-Ensure that `ssamblu.gif` is in the same directory as `main.py`
+	- `python main.py`
+	- Ensure that `ssamblu.gif` is in the same directory as `main.py`
