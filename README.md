@@ -7,13 +7,13 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
 
 ## Program Design
 1. Story Architecture:
-  - The narrative is built using function-based story nodes, where:
-    - Each function represents a point of decision
-    - Player input determines which function is executed
-    - Structure allows non-linear progression
-  - This makes the story easy to expand with new branches without rewriting core logic
+		- The narrative is built using function-based story nodes, where:
+    	- Each function represents a point of decision
+   		- Player input determines which function is executed
+			- Structure allows non-linear progression
+   	- This makes the story easy to expand with new branches without rewriting core logic
 
-2. State & Progress Tracking
+3. State & Progress Tracking
   - Player progress is tracked through:
     - Boolean flags
     - Conditional checks
@@ -57,10 +57,10 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
   - Visual asset displayed during a key narrative moment using Pillow (PIL)
 
 ## Dependencies & Setup
-Requirements
+Requirements:
   - Python 3.8+
   - Pillow (Python Imaging Library) ~ `pip install pillow`
-Imported libraries
+Imported libraries:
   - time (pacing and immersion)
   - sys (controlled exits)
   - os (env interaction)
@@ -68,5 +68,5 @@ Imported libraries
   - PIL.Image (visual asset rendering)
 
 ## How to Run
-- `python main.py`
-- Ensure that `ssamblu.gif` is in the same directory as `main.py`
+`python main.py`
+Ensure that `ssamblu.gif` is in the same directory as `main.py`
