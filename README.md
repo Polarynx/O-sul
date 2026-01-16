@@ -58,14 +58,14 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
 
 ## Dependencies & Setup
 Requirements:
-		- Python 3.8+
-		- Pillow (Python Imaging Library) ~ `pip install pillow`
+	- Python 3.8+
+	- Pillow (Python Imaging Library) ~ `pip install pillow`
 Imported libraries:
-		- time (pacing and immersion)
-		- sys (controlled exits)
-		- os (env interaction)
-		- getpass (hidden password input)
-		- PIL.Image (visual asset rendering)
+	- time (pacing and immersion)
+	- sys (controlled exits)
+	- os (env interaction)
+	- getpass (hidden password input)
+	- PIL.Image (visual asset rendering)
 
 ## How to Run
 1. `python main.py`
