@@ -66,7 +66,7 @@ The project emphasizes programmatic storytelling, modular narrative design, and 
 	- os (env interaction)
 	- getpass (hidden password input)
 	- PIL.Image (visual asset rendering)
-
+---
 ## How to Run
 1. `python main.py`
 2. Ensure that `ssamblu.gif` is in the same directory as `main.py`
